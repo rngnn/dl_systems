@@ -17,4 +17,4 @@ WORKDIR Face-Mask-Detection
 RUN pip3 install tensorflow==2.5.1
 RUN pip3 install -r requirements.txt
 
-RUN python3 test.py
+CMD ["python3", "test.py"]
