@@ -10,6 +10,9 @@ sudo apt-get install docker docker.io
 
 Чтобы запустить проект введите команду:
 
-```docker build -t dl_course .
-docker run --name dl_course_run dl_course```
+```
+docker build -t dl_course .
+
+docker run --name dl_course_run dl_course
+```
 
